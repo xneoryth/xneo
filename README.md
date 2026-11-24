@@ -26,6 +26,7 @@ I'm still a beginner, still making mistakes, and still figuring things out. This
 </p>
 
 <p align="center">
+ 
 | Language / Tool | Learning Focus |
 |:---|:---|
 | Java | Programming fundamentals |
@@ -33,6 +34,7 @@ I'm still a beginner, still making mistakes, and still figuring things out. This
 | CSS | Styling and layouts |
 | JavaScript | Interactive websites |
 | GitHub | Version control |
+
 </p>
 
 ---
