@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=F5DCE7&height=170&section=header&text=hello,%20world!&fontSize=48&fontColor=765568&fontAlignY=45" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F5DCE7&height=170&section=header&text=hello, hey, hi,%20world!&fontSize=48&fontColor=765568&fontAlignY=45" width="100%">
 <h2 align="center">♡ Ambat, Tyrhone V.</h2>
 
 <p align="center">
@@ -39,12 +39,26 @@ I'm still a beginner, still making mistakes, and still figuring things out. This
 
 ---
 
-## ☁️ MY PROJECTS
-A collection of things I've worked on and created:
-- **Java Activities** — Programming exercises and school activities.
-- **Personal Portfolio** — My little corner on the internet.
-- **Practice Projects** — Experiments and projects from my learning journey.
-*More projects coming soon!*
+### MIDTERM ACTIVITIES
+
+| No. | Laboratory Task | Description / Topic |
+|:---:|---|---|
+| 01 | [Midterm Lab Task #1](YOUR_MIDTERM_TASK_1_LINK) | . |
+| 02 | [Midterm Lab Task #2](YOUR_MIDTERM_TASK_2_LINK) | . |
+| 03 | [Midterm Lab Task #3](YOUR_MIDTERM_TASK_3_LINK) | . |
+| 04 | [Midterm Lab Task #4](YOUR_MIDTERM_TASK_4_LINK) | . |
+| 05 | [Midterm Lab Task #5](YOUR_MIDTERM_TASK_5_LINK) | . |
+
+### FINAL ACTIVITIES
+
+| No. | Laboratory Task | Description / Topic |
+|:---:|---|---|
+| 01 | [Final Lab Task #1](YOUR_FINAL_TASK_1_LINK) | . |
+| 02 | [Final Lab Task #2](YOUR_FINAL_TASK_2_LINK) | . |
+| 03 | [Final Lab Task #3](YOUR_FINAL_TASK_3_LINK) | . |
+| 04 | [Final Lab Task #4](YOUR_FINAL_TASK_4_LINK) | . |
+| 05 | [Final Lab Task #5](YOUR_FINAL_TASK_5_LINK) | . |
+| 06 | [Final Lab Task #6](YOUR_FINAL_TASK_6_LINK) | . |
 
 ---
 
