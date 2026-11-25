@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=F5DCE7&height=170&section=header&text=hello, hey, hi,%20world!&fontSize=48&fontColor=765568&fontAlignY=45" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F5DCE7&height=170&section=header&text=hello,%20hey,%20hi,%20world!&fontSize=48&fontColor=765568&fontAlignY=45" width="100%">
 <h2 align="center">♡ Ambat, Tyrhone V.</h2>
 
 <p align="center">
