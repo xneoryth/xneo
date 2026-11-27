@@ -1,102 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- GREENERY THEMED GITHUB PROFILE README -->
+<title>Tyrhone Ambat | My GitHub Portfolio</title>
 
-<div align="center">
+<style>
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7FA68A&height=180&section=header&text=hello,%20hey,%20hi,%20world!&fontSize=45&fontColor=FFFFFF&fontAlignY=45" width="100%">
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #405746;
+    line-height: 1.8;
+    background:
+        radial-gradient(ellipse at 5% 10%, #dcebd9 0%, transparent 40%),
+        radial-gradient(ellipse at 95% 30%, #c8dfc9 0%, transparent 38%),
+        radial-gradient(ellipse at 10% 85%, #e3eddf 0%, transparent 35%),
+        linear-gradient(135deg, #f5f8f0, #e8f0e5, #f7f8f2);
+    background-attachment: fixed;
+}
 
-<h2>🌿 Ambat, Tyrhone V.</h2>
+/* DECORATIVE LEAVES */
+body::before {
+    content: "🌿";
+    position: fixed;
+    top: 20%;
+    left: 2%;
+    font-size: 75px;
+    opacity: 0.13;
+    pointer-events: none;
+}
 
-<p>
-<i>BSIT Student · Aspiring Developer · Creative Mind</i>
-</p>
+body::after {
+    content: "🍃";
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    font-size: 85px;
+    opacity: 0.15;
+    pointer-events: none;
+}
 
-<p>
-✿ learning something new, one line at a time ✿
-</p>
+/* MAIN CONTAINER */
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 35px auto;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.83);
+    border: 1px solid #d5e4d4;
+    border-radius: 22px;
+    box-shadow: 0 10px 35px rgba(68, 100, 72, 0.10);
+}
 
-<p>🍃 ─────────────── 🍃</p>
+/* HEADER */
+.header {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.header img.banner {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+.header h1 {
+    color: #496c50;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.subtitle {
+    color: #718b72;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.tagline {
+    color: #829b7e;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* SECTION STYLING */
+section {
+    margin: 35px 0;
+}
+
+h2 {
+    color: #537a58;
+    font-size: 22px;
+    border-bottom: 2px solid #dce9d8;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    color: #628268;
+    margin-bottom: 15px;
+}
+
+/* PARAGRAPHS */
+p {
+    margin-bottom: 12px;
+}
+
+/* QUOTE */
+blockquote {
+    background: #eef5eb;
+    border-left: 4px solid #8eaf89;
+    padding: 15px 20px;
+    margin-top: 18px;
+    border-radius: 5px;
+    color: #648168;
+    font-style: italic;
+}
+
+/* TECHNOLOGY ICONS */
+.skills {
+    text-align: center;
+    padding: 15px;
+    background: #f1f6ee;
+    border-radius: 15px;
+}
+
+.skills img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* TABLES */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    font-size: 14px;
+}
+
+th {
+    background: #779879;
+    color: white;
+    padding: 13px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e1ebdf;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f1f6ef;
+}
+
+tr:hover {
+    background: #e7f0e4;
+}
+
+/* LINKS */
+a {
+    color: #608366;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #355c3d;
+    text-decoration: underline;
+}
+
+/* PERSONAL INTERESTS */
+.interests {
+    background: #f0f6ed;
+    padding: 20px 25px;
+    border-radius: 15px;
+}
+
+.interests ul {
+    list-style: none;
+}
+
+.interests li {
+    padding: 6px 0;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #68856c;
+}
+
+.footer p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+    .container {
+        width: 94%;
+        padding: 18px;
+        margin: 15px auto;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    table {
+        font-size: 12px;
+        min-width: 480px;
+    }
+
+    body::before,
+    body::after {
+        font-size: 45px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <img
+            class="banner"
+            src="https://capsule-render.vercel.app/api?type=waving&color=7FA68A&height=180&section=header&text=hello,%20hey,%20hi,%20world!&fontSize=42&fontColor=FFFFFF&fontAlignY=45"
+            alt="Green welcome banner">
+
+        <h1>🌿 Ambat, Tyrhone V.</h1>
+
+        <p class="subtitle">
+            BSIT Student · Aspiring Developer · Creative Mind
+        </p>
+
+        <p class="tagline">
+            ✿ learning something new, one line at a time ✿
+        </p>
+
+    </header>
+
+    <!-- ABOUT ME -->
+    <section>
+
+        <h2>୨ৎ ABOUT ME</h2>
+
+        <p>
+            Hello! I'm <strong>Tyrhone</strong>, a first-year BSIT
+            student from <strong>National University Clark</strong>.
+        </p>
+
+        <p>
+            I'm currently exploring the world of programming,
+            discovering new technologies, and learning how to turn
+            ideas into something meaningful.
+        </p>
+
+        <p>
+            I'm still a beginner, still making mistakes, and still
+            figuring things out. This GitHub is where I document
+            my progress, store my projects, and keep memories of
+            my journey as an IT student.
+        </p>
+
+        <blockquote>
+            "Every expert was once a beginner." 🌱
+        </blockquote>
+
+    </section>
+
+    <!-- WHAT I'M LEARNING -->
+    <section>
+
+        <h2>✧ WHAT I'M LEARNING</h2>
+
+        <div class="skills">
+
+            <img
+                src="https://skillicons.dev/icons?i=java,html,css,js,github,vscode&theme=light"
+                alt="Java, HTML, CSS, JavaScript, GitHub and VS Code icons">
+
+        </div>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Language / Tool</th>
+                        <th>Learning Focus</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>🌿 Java</td>
+                        <td>Programming fundamentals</td>
+                    </tr>
+                    <tr>
+                        <td>🍃 HTML</td>
+                        <td>Web development</td>
+                    </tr>
+                    <tr>
+                        <td>🌱 CSS</td>
+                        <td>Styling and layouts</td>
+                    </tr>
+                    <tr>
+                        <td>🌳 JavaScript</td>
+                        <td>Interactive websites</td>
+                    </tr>
+                    <tr>
+                        <td>☘️ GitHub</td>
+                        <td>Version control</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <!-- MIDTERM ACTIVITIES -->
+    <section>
+
+        <h2>🌱 MIDTERM ACTIVITIES</h2>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Laboratory Task</th>
+                        <th>Description / Topic</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td><a href="YOUR_MIDTERM_TASK_1_LINK">Midterm Lab Task #1</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td><a href="YOUR_MIDTERM_TASK_2_LINK">Midterm Lab Task #2</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td><a href="YOUR_MIDTERM_TASK_3_LINK">Midterm Lab Task #3</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td><a href="YOUR_MIDTERM_TASK_4_LINK">Midterm Lab Task #4</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td><a href="YOUR_MIDTERM_TASK_5_LINK">Midterm Lab Task #5</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <!-- FINAL ACTIVITIES -->
+    <section>
+
+        <h2>🍀 FINAL ACTIVITIES</h2>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Laboratory Task</th>
+                        <th>Description / Topic</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td><a href="YOUR_FINAL_TASK_1_LINK">Final Lab Task #1</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td><a href="YOUR_FINAL_TASK_2_LINK">Final Lab Task #2</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td><a href="YOUR_FINAL_TASK_3_LINK">Final Lab Task #3</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td><a href="YOUR_FINAL_TASK_4_LINK">Final Lab Task #4</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td><a href="YOUR_FINAL_TASK_5_LINK">Final Lab Task #5</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td><a href="YOUR_FINAL_TASK_6_LINK">Final Lab Task #6</a></td>
+                        <td>To be updated</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <!-- BEYOND THE SCREEN -->
+    <section>
+
+        <h2>♡ BEYOND THE SCREEN</h2>
+
+        <div class="interests">
+
+            <p>A few little things about me:</p>
+
+            <ul>
+                <li>🌿 I love gadgets and technology.</li>
+                <li>📷 I enjoy photography, filming, and editing.</li>
+                <li>🎧 Music is a big part of my everyday life.</li>
+                <li>💿 I love collecting albums and little memories.</li>
+                <li>☕ Coffee shops are my happy place.</li>
+                <li>🌱 I enjoy learning, exploring, and discovering new things.</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>🍃 ─────────────── 🍃</p>
+
+        <h3>thanks for stopping by! ♡</h3>
+
+        <p>
+            learning, creating, and growing — one commit at a time.
+        </p>
+
+        <p>🌱 keep growing, keep glowing. 🌱</p>
+
+        <img
+            src="https://capsule-render.vercel.app/api?type=waving&color=7FA68A&height=110&section=footer"
+            width="100%"
+            alt="Green footer decoration">
+
+    </footer>
 
 </div>
 
-## ୨ৎ ABOUT ME
-
-Hello! I'm **Tyrhone**, a first-year BSIT student from **National University Clark**.
-
-I'm currently exploring the world of programming, discovering new technologies, and learning how to turn ideas into something meaningful.
-
-I'm still a beginner, still making mistakes, and still figuring things out. This GitHub is where I document my progress, store my projects, and keep memories of my journey as an IT student.
-
-> "Every expert was once a beginner." 🌱
-
----
-
-## ✧ WHAT I'M LEARNING
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,html,css,js,github,vscode&theme=light">
-
-</div>
-
-| Language / Tool | Learning Focus |
-|:---|:---|
-| ☘️ Java | Programming fundamentals |
-| 🌿 HTML | Web development |
-| 🍃 CSS | Styling and layouts |
-| 🌱 JavaScript | Interactive websites |
-| 🌳 GitHub | Version control |
-
----
-
-## 🌱 MIDTERM ACTIVITIES
-
-| No. | Laboratory Task | Description / Topic |
-|:---:|---|---|
-| 01 | [Midterm Lab Task #1](YOUR_MIDTERM_TASK_1_LINK) | To be updated |
-| 02 | [Midterm Lab Task #2](YOUR_MIDTERM_TASK_2_LINK) | To be updated |
-| 03 | [Midterm Lab Task #3](YOUR_MIDTERM_TASK_3_LINK) | To be updated |
-| 04 | [Midterm Lab Task #4](YOUR_MIDTERM_TASK_4_LINK) | To be updated |
-| 05 | [Midterm Lab Task #5](YOUR_MIDTERM_TASK_5_LINK) | To be updated |
-
----
-
-## 🍀 FINAL ACTIVITIES
-
-| No. | Laboratory Task | Description / Topic |
-|:---:|---|---|
-| 01 | [Final Lab Task #1](YOUR_FINAL_TASK_1_LINK) | To be updated |
-| 02 | [Final Lab Task #2](YOUR_FINAL_TASK_2_LINK) | To be updated |
-| 03 | [Final Lab Task #3](YOUR_FINAL_TASK_3_LINK) | To be updated |
-| 04 | [Final Lab Task #4](YOUR_FINAL_TASK_4_LINK) | To be updated |
-| 05 | [Final Lab Task #5](YOUR_FINAL_TASK_5_LINK) | To be updated |
-| 06 | [Final Lab Task #6](YOUR_FINAL_TASK_6_LINK) | To be updated |
-
----
-
-## ♡ BEYOND THE SCREEN
-
-A few little things about me:
-
-- 🌿 I love gadgets and technology.
-- 📷 I enjoy photography, filming, and editing.
-- 🎧 Music is a big part of my everyday life.
-- 💿 I love collecting albums and little memories.
-- ☕ Coffee shops are my happy place.
-- 🌱 I enjoy learning, exploring, and discovering new things.
-
----
-
-<div align="center">
-
-<p>🍃 ─────────────── 🍃</p>
-
-<h3>thanks for stopping by! ♡</h3>
-
-<i>learning, creating, and growing — one commit at a time.</i>
-
-<p>🌱 keep growing, keep glowing. 🌱</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7FA68A&height=110&section=footer" width="100%">
-
-</div>
+</body>
+</html>
